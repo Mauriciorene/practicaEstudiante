@@ -7,7 +7,7 @@ package datosestudiante;
 
 /**
  *
- * @author PC5-B5
+ * @author Muaricio Rubio
  */
 public class principalMDIApplication extends javax.swing.JFrame {
 
@@ -150,7 +150,10 @@ public class principalMDIApplication extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void openMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openMenuItemActionPerformed
-        // TODO add your handling code here:
+       JInternalFrameEstudiante ac=new JInternalFrameEstudiante();
+        desktopPane.add(ac);
+        ac.show();
+        
     }//GEN-LAST:event_openMenuItemActionPerformed
 
     /**
@@ -203,8 +206,6 @@ public class principalMDIApplication extends javax.swing.JFrame {
     private javax.swing.JMenuItem saveAsMenuItem;
     private javax.swing.JMenuItem saveMenuItem;
     // End of variables declaration//GEN-END:variables
-private void openMenuItemactionPerformed (java.awt.event.ActionEvent evt) {
-    desktoppane.add(ac);
-    ac.show();
+ 
 }
 
