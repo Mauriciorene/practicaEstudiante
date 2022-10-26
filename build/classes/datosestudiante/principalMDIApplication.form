@@ -76,7 +76,7 @@
       <Color id="Cursor Por defecto"/>
     </Property>
     <Property name="extendedState" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-      <Connection code="principalMDI.MAXIMIZED_BOTH" type="code"/>
+      <Connection code="principalMDIApplication.MAXIMIZED_BOTH" type="code"/>
     </Property>
   </Properties>
   <SyntheticProperties>
@@ -100,10 +100,10 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jToolBar2" min="-2" pref="388" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jToolBar2" min="-2" pref="418" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="desktopPane" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
