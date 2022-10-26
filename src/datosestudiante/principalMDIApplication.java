@@ -64,6 +64,11 @@ public class principalMDIApplication extends javax.swing.JFrame {
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton2);
 
         desktopPane.setLayout(new javax.swing.OverlayLayout(desktopPane));
@@ -146,15 +151,21 @@ public class principalMDIApplication extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItemInfoActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void openMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openMenuItemActionPerformed
-       JInternalFrameEstudiante ac=new JInternalFrameEstudiante();
+        JInternalFrameEstudiante ac=new JInternalFrameEstudiante();
         desktopPane.add(ac);
         ac.show();
         
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void openMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openMenuItemActionPerformed
+        // TODO add your handling code here:
     }//GEN-LAST:event_openMenuItemActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        JInternalFrameEstudiante ac=new JInternalFrameEstudiante();
+        desktopPane.add(ac);
+        ac.show();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
