@@ -15,6 +15,6 @@ public class DatosEstudiante {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        principalMDI mdi= new principalMDI();
-        mdi.setVisible(true); 
-}
+        principalMDIApplication mdi= new principalMDIApplication();
+        mdi.setVisible(true);
+    }     
